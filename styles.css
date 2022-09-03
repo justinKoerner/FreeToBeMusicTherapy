@@ -189,7 +189,7 @@ h1 {
     top: 25em;
     padding: 0 5em;
     text-align: center;
-    overflow: hidden;
+    overflow: clip;
     animation: typing 3.5s, fadein ease-in 2.5s;
 }
 
