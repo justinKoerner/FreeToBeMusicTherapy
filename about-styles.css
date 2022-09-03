@@ -1,0 +1,146 @@
+#music-therapy-def {
+    color: white;
+    line-height: 1.6em;
+    background: linear-gradient(to right, rgb(157, 199, 215), 10%, rgb(112, 152, 166), 90%,  rgb(157, 199, 215));
+    /* justify-content: center; */
+    /* background-color: rgb(225, 239, 242); */
+    /* background: linear-gradient(to right, white, 10%, rgb(225, 225, 211), 90%,  white); */
+    text-align: center;
+    padding: 5em 3em;
+    padding-bottom: 3em;
+}
+
+/*to fix erroneous right-margin on ultra-wide screens*/
+#music-therapy-def p {
+    margin: auto;
+}
+
+
+h2 {
+    text-align: center;
+    padding-bottom: 1.5em;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+}
+
+#values {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+    padding: 2em 0;
+    padding-bottom: 3em;
+}
+
+/* #values h2 {
+    font-size: 2em;
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 1em;
+    text-align: center;
+} */
+
+#values .card {
+    border: none;
+    white-space: nowrap;
+    align-items: center;
+}
+
+#values .card-body {
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: rgb(225, 225, 211); */
+    border-radius: 50%;
+    color: white;
+
+    display: flex;
+    width: 200px;
+    height: 200px;
+    
+    margin-bottom: 1em;
+    transition: all 0.5s;
+}
+
+#values .card-body:hover {
+    transform: scale(1.1);
+}
+
+#values h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#values #compassion-card {
+    background-color: rgb(80, 90, 159);
+}
+
+#values #accessibility-card {
+    background-color: rgb(30, 120, 195);
+}
+
+#values #inclusivity-card {
+    background-color: rgb(67, 105, 138);
+}
+
+#about-section {
+    background-color: rgb(225, 225, 211);
+    padding: 3em 5em;
+}
+
+#about-section #about-me-img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    max-width: 350px;
+    max-height: 350px;
+
+    border: 6px solid white;
+    border-radius: 50%;
+    
+    /*to center the image*/
+    margin: 3em auto;    
+    /* margin-bottom: 2em; */
+    display: block;
+}
+
+#about-section p {
+    padding: 0.5em 5em;
+}
+
+#about-section p:last-of-type {
+    padding-bottom: 3em;
+}
+
+@media (min-width: 696px) {
+    #music-therapy-def {
+        /* background: linear-gradient(to right, white, 10%, rgb(225, 239, 242), 90%,  white); */
+        /* background: linear-gradient(to right, rgb(157, 199, 215), 10%, rgb(112, 152, 166), 90%,  rgb(157, 199, 215)); */
+        padding: 5em 7em;
+    }
+    #values .card-body {
+        width: 220px;
+        height: 220px;
+    }
+    #about-section {
+        background: linear-gradient(to right, white, 10%, rgb(225, 225, 211), 90%,  white);
+    }
+
+}
+
+@media (min-width: 768px) {
+    #music-therapy-def {
+        padding: 5em 10em;
+        padding-bottom: 4em;
+    }
+    #about-section p {
+        padding: 0.5em 10em;
+    }
+}
+
+@media (min-width: 992px) {
+    #values .card-body {
+        width: 250px;
+        height: 250px;
+    }
+    #music-therapy-def {
+        padding: 5em 13em;
+    }
+}

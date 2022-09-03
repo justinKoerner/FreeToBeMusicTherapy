@@ -1,0 +1,13 @@
+img {
+    object-fit: cover;
+    height: 15em;
+    width: auto;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card button {
+    align-self: center;
+}
