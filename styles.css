@@ -8,6 +8,10 @@ body {
     font-display: block;
 }
 
+#wrapper {
+    overflow-x: clip;
+}
+
 /*remove all default styling from anchor tag*/
 a, a:hover, a:focus, a:active {
     text-decoration: none;

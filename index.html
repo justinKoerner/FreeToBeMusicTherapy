@@ -45,175 +45,178 @@
     </section>
   </div> -->
 
-  <div class="container-fluid sticky-top" id="nav-container">
-    <div class="row">
-      <div class="col" id="navbar-col">
-        <nav class="navbar navbar-expand-sm navbar-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="about.html">About</a>
-              <a class="nav-item nav-link" href="services.html">Services</a>
-              <a class="nav-item nav-link" href="faq.html">FAQ</a>
-              <a class="nav-item nav-link" href="contact.html">Contact</a>
+  <div id="wrapper">
+    <div class="container-fluid sticky-top" id="nav-container">
+      <div class="row">
+        <div class="col" id="navbar-col">
+          <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link" href="services.html">Services</a>
+                <a class="nav-item nav-link" href="faq.html">FAQ</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  
+    <hr class="narrower">
+  
+    <div class="container-fluid">
+      <section id="guitar">
+        <div class="row" id="quoteRow">
+          <img src="imgs/grey-guitar.jpg" alt="Image of Guitar" class="img-fluid" id="guitarImg">
+        </div>
+      </section>
+      <section>
+      </section>
+    </div>
+  
+    <div class="quote">
+      <h2 id="quote">
+        <span>"Out beyond ideas of wrongdoing and rightdoing, there is a field.</span>
+        <span>I will meet you there."</span>
+      </h2>
+      <h3>- Rumi</h3>
+    </div>
+  
+    <hr>
+  
+    <div class="container-fluid" id="about-me">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 justify-content-center" id="picture-col">
+          <img
+            src="https://static.wixstatic.com/media/0c48f2_2f8c584b13bd4b358845605a17c680d0~mv2.jpg/v1/fill/w_920,h_1227,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_3263.jpg"
+            alt="" class="image-fluid">
+        </div>
+        <div class="col-lg-6 pl-lg-4" id="about-me-text">
+          <h2>About</h2>
+          <p id="credentials">
+            <span><span class="bold"><b>Janelle Miller</b></span>, Music Therapist</span>
+            <span id="founder" class="italic">Founder of Free to Be Music Therapy</span>
+          </p>
+          <div id="description">
+            <p>
+              Originally from Calgary, Alberta, Janelle grew up around music and completed her Music Diploma at Selkirk
+              College in Nelson, BC. She then returned to Calgary, where she worked with children with developmental
+              delays
+              and disorders for 5 years which led her to the field of Music Therapy. Janelle moved to Vancouver, where she
+              completed her Bachelor's Degree in Music Therapy at Capilano University and a 1,000-hour internship at BC
+              Children's Hospital. After graduating, Janelle decided to stay in Vancouver and lay down some roots.
+            </p>
+            <p>
+              <b><i>Free to Be Music Therapy</i></b> started with a vision of a safe, inclusive space
+              where clients feel <b><i>Free to Be</i></b> themselves regardless of ability, class, ethnic background,
+              sexual orientation, gender identity,
+              neuro-divergency, and mental or physical diagnoses.
+            </p>
+            <p>
+              Janelle practices a humanistic, strength-based approach in which she meets you where you're at, and aims to
+              connect with who you are at your core, holding space for you to show up authentically.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <hr>
+  
+    <div class="container-fluid p-0 contact-form">
+      <div class="card mx-0 mx-sm-5 rounded-0 border-0">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6 px-5">
+              <h2>Contact</h2>
+              <p>Vancouver, BC</p>
+            </div>
+  
+            <div class="col-md-6 px-5 py-md-0 py-5" id="main-form">
+              <form action="https://formsubmit.co/0ff625bddf648a2b069381cf531f1047" method="POST">
+                <!--Honeypot (for catching spammer)--> 
+                <input type="text" name="_honey" style="display: none;">
+                <!--Disable captcha-->
+                <input type="hidden" name="_captcha" value="false">
+                <!--Email format-->
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://justinkoerner.github.io/FreeToBeMusicTherapy/submitted.html">
+                <div class="form-row">
+                  <div class="form-group col-sm-6 col-md-12 col-lg-6">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="form-group col-sm-6 col-md-12 col-lg-6">
+                    <label for="emailAddress">Email address <span class="required">*</span></label>
+                    <input type="email" class="form-control" id="emailAddress" name="Email" placeholder="Enter your email" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-sm-6 col-md-12 col-lg-6">
+                    <label for="phone">Phone</label>
+                    <input type="tel" class="form-control" id="phone" name="Phone" placeholder="Enter your phone number">
+                  </div>
+                  <div class="form-group col-sm-6 col-md-12 col-lg-6">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" name="Address" placeholder="Enter your address">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="Subject" placeholder="Type the subject">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message <span class="required">*</span></label>
+                  <textarea rows="6" class="form-control" id="message" name="Message" placeholder="Type your message here..."
+                    required></textarea>
+                </div>
+  
+                <button type="submit" class="btn btn-success submit-btn" id="home-submit">Submit</button>
+              </form>
             </div>
           </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-
-  <hr class="narrower">
-
-  <div class="container-fluid">
-    <section id="guitar">
-      <div class="row" id="quoteRow">
-        <img src="imgs/grey-guitar.jpg" alt="Image of Guitar" class="img-fluid" id="guitarImg">
-      </div>
-    </section>
-    <section>
-    </section>
-  </div>
-
-  <div class="quote">
-    <h2 id="quote">
-      <span>"Out beyond ideas of wrongdoing and rightdoing, there is a field.</span>
-      <span>I will meet you there."</span>
-    </h2>
-    <h3>- Rumi</h3>
-  </div>
-
-  <hr>
-
-  <div class="container-fluid" id="about-me">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-lg-6 justify-content-center" id="picture-col">
-        <img
-          src="https://static.wixstatic.com/media/0c48f2_2f8c584b13bd4b358845605a17c680d0~mv2.jpg/v1/fill/w_920,h_1227,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_3263.jpg"
-          alt="" class="image-fluid">
-      </div>
-      <div class="col-lg-6 pl-lg-4" id="about-me-text">
-        <h2>About</h2>
-        <p id="credentials">
-          <span><span class="bold"><b>Janelle Miller</b></span>, Music Therapist</span>
-          <span id="founder" class="italic">Founder of Free to Be Music Therapy</span>
-        </p>
-        <div id="description">
-          <p>
-            Originally from Calgary, Alberta, Janelle grew up around music and completed her Music Diploma at Selkirk
-            College in Nelson, BC. She then returned to Calgary, where she worked with children with developmental
-            delays
-            and disorders for 5 years which led her to the field of Music Therapy. Janelle moved to Vancouver, where she
-            completed her Bachelor's Degree in Music Therapy at Capilano University and a 1,000-hour internship at BC
-            Children's Hospital. After graduating, Janelle decided to stay in Vancouver and lay down some roots.
-          </p>
-          <p>
-            <b><i>Free to Be Music Therapy</i></b> started with a vision of a safe, inclusive space
-            where clients feel <b><i>Free to Be</i></b> themselves regardless of ability, class, ethnic background,
-            sexual orientation, gender identity,
-            neuro-divergency, and mental or physical diagnoses.
-          </p>
-          <p>
-            Janelle practices a humanistic, strength-based approach in which she meets you where you're at, and aims to
-            connect with who you are at your core, holding space for you to show up authentically.
-          </p>
         </div>
       </div>
+  
     </div>
-  </div>
-
-  <hr>
-
-  <div class="container-fluid p-0 contact-form">
-    <div class="card mx-0 mx-sm-5 rounded-0 border-0">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6 px-5">
-            <h2>Contact</h2>
-            <p>Vancouver, BC</p>
-          </div>
-
-          <div class="col-md-6 px-5 py-md-0 py-5" id="main-form">
-            <form action="https://formsubmit.co/0ff625bddf648a2b069381cf531f1047" method="POST">
-              <!--Honeypot (for catching spammer)--> 
-              <input type="text" name="_honey" style="display: none;">
-              <!--Disable captcha-->
-              <input type="hidden" name="_captcha" value="false">
-              <!--Email format-->
-              <input type="hidden" name="_template" value="table">
-              <input type="hidden" name="_next" value="https://justinkoerner.github.io/FreeToBeMusicTherapy/submitted.html">
-              <div class="form-row">
-                <div class="form-group col-sm-6 col-md-12 col-lg-6">
-                  <label for="name">Name <span class="required">*</span></label>
-                  <input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group col-sm-6 col-md-12 col-lg-6">
-                  <label for="emailAddress">Email address <span class="required">*</span></label>
-                  <input type="email" class="form-control" id="emailAddress" name="Email" placeholder="Enter your email" required>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-sm-6 col-md-12 col-lg-6">
-                  <label for="phone">Phone</label>
-                  <input type="tel" class="form-control" id="phone" name="Phone" placeholder="Enter your phone number">
-                </div>
-                <div class="form-group col-sm-6 col-md-12 col-lg-6">
-                  <label for="address">Address</label>
-                  <input type="text" class="form-control" id="address" name="Address" placeholder="Enter your address">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" class="form-control" id="subject" name="Subject" placeholder="Type the subject">
-              </div>
-              <div class="form-group">
-                <label for="message">Message <span class="required">*</span></label>
-                <textarea rows="6" class="form-control" id="message" name="Message" placeholder="Type your message here..."
-                  required></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-success submit-btn" id="home-submit">Submit</button>
-            </form>
-          </div>
+  
+    <hr>
+  
+    <div id="footer"></div>
+    <!-- <div class="container-fluid p-0" id="footer">
+      <footer>
+        <div class="row justify-content-center" id="insta-logo-row">
+          <a href="https://www.instagram.com/freetobemusictherapy/">
+            <img src="imgs/Instagram_Glyph_White.png" alt="Instagram" id="insta-logo">
+          </a>
         </div>
-      </div>
-    </div>
-
+        <div class="row pt-3 m-0 justify-content-center">
+          <p id="copyright-text">
+            ©2022 by Free to Be Music Therapy
+          </p>
+        </div>
+  
+      </footer>
+    </div> -->
+  
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+    <!-- <script src="home.js"></script> -->
   </div>
-
-  <hr>
-
-  <div id="footer"></div>
-  <!-- <div class="container-fluid p-0" id="footer">
-    <footer>
-      <div class="row justify-content-center" id="insta-logo-row">
-        <a href="https://www.instagram.com/freetobemusictherapy/">
-          <img src="imgs/Instagram_Glyph_White.png" alt="Instagram" id="insta-logo">
-        </a>
-      </div>
-      <div class="row pt-3 m-0 justify-content-center">
-        <p id="copyright-text">
-          ©2022 by Free to Be Music Therapy
-        </p>
-      </div>
-
-    </footer>
-  </div> -->
-
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-  <!-- <script src="home.js"></script> -->
+ 
 </body>
 
 </html>
